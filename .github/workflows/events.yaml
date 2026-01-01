@@ -7,3 +7,9 @@ jobs:
       - name: info
         run: |
           echo "This is a test run"
+  build-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build
+        run: |
+          echo "Building the project..."
