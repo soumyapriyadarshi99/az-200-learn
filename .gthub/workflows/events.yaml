@@ -4,6 +4,6 @@ jobs:
   show-info:
     runs-on: ubuntu-latest
     steps: 
-      name: info
-      run: |
-        echo "This is a test run"
+      - name: info
+        run: |
+          echo "This is a test run"
