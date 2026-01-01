@@ -1,6 +1,6 @@
 name: push-events
 on: push
-jobs: |
+jobs:
   show-info:
     runs-on: ubuntu-latest
     steps: 
